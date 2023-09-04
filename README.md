@@ -22,6 +22,29 @@ Browse through the folder `/public`, there you can already see a basic `map.json
 
 In the same folder, you also need to add your own `tileset.png`.
 
+## Accessing your local island
+
+Now that your island is ready and hosted, you need to access it no?
+
+Let's do that, there's two way.
+
+### Using Sunflower Land Testnet
+
+Head to Sunflower Land's Testnet using https://sunflower-land.com/testnet
+
+Once you're logged in change the url to https://sunflower-land.com/testnet/#/community-tools and enter http://localhost:5500/public
+
+### Using Sunflower Land on local
+
+Clone [Sunflower Land](https://github.com/sunflower-land/sunflower-land/)'s repository on your computer then run these commands.
+
+`yarn` to install all the dependencies
+`yarn dev` to start Sunflower Land on local
+
+Once Sunflower Land is up and running, use this URL to access Community Island part
+
+http://localhost:3000/#/community-tools and enter http://localhost:5500/public
+
 ## Congrats! 🎉
 
 Your local island is now ready to be used and worked on!
